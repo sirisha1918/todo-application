@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "sudheer99123/todo-application"
+        DOCKER_IMAGE = "siribadiya/todo-application"
         DOCKER_TAG = "latest"
     }
 
@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo "Cloning the repository..."
-                git branch: 'master', url: 'https://github.com/sudheer-nuvepro/todo.git'
+                git branch: 'main', url: 'https://github.com/sirisha1918/todo-application.git'
             }
         }
 
