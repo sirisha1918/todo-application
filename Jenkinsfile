@@ -1,4 +1,3 @@
-# write your jenkins pipeline code here
 pipeline {
     agent any
 
